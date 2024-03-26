@@ -122,18 +122,8 @@ trajGoal = packTrajGoal(UR5econfig,trajGoal)
 sendGoal(trajAct,trajGoal)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+% From Gazebo, final pose of wrist3 is as follows
+final_pose = [0.7999 0.0399 0.1297 3.1414 0.0004 0.0000]
 
 
 
