@@ -131,18 +131,8 @@ pause(4)
 % location, using code from section 2.4, notebook 09
 CloseGrippers_HW08
 
-
-
-
-
-
-
-
-
-
-
-
-
+% From Gazebo, final pose is as follows
+final_pose = [0.7999 0.0399 0.1297 3.1414 0.0004 0.0000]
 
 
 
