@@ -94,6 +94,9 @@ trajGoal = packTrajGoal(UR5econfig,trajGoal)
 %Lastly send it!
 sendGoal(trajAct,trajGoal)
 
+% From Gazebo, final pose is as follows
+final_pose = [0.7999 0.0400 0.1497 3.1415 0.0004 0.0000]
+
 function gripGoal=packGripGoal(pos,gripGoal)
     jointWaypointTimes = 0.1;                                                 % Duration of trajectory
     jointWaypoints = [pos]';                                                % Set position of way points
